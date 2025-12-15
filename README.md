@@ -1,7 +1,7 @@
-﻿## SmartGrow DataControl User Guide: A Comprehensive Manual
+﻿## SmartGrow User Guide: A Comprehensive Manual
 
 ## About Smartgrow
-## SmartGrow DataControl is a highly automated program developed specifically for collecting and evaluating ambient physiological information in indoor crop cultivation. This solution enables effortless integration between wireless devices and open-source databases, prioritizing the optimization of energy consumption by utilizing standard communication protocols such as TCP/IP, MQTT, and HTTP. The main objective of SmartGrow DataControl is to enhance the collection of crucial data for in-depth research of crop physiology, utilizing cutting-edge optics and Internet of Things (IoT) technologies. This paper primarily functions as a user guide, providing precise instructions on how to efficiently utilize the program. The content encompasses subjects such as the process of installation, the necessary hardware and software prerequisites, and the functionality of the system.
+## SmartGrow is a highly automated program developed specifically for collecting and evaluating ambient physiological information in indoor crop cultivation. This solution enables effortless integration between wireless devices and open-source databases, prioritizing the optimization of energy consumption by utilizing standard communication protocols such as TCP/IP, MQTT, and HTTP. The main objective of SmartGrow is to enhance the collection of crucial data for in-depth research of crop physiology, utilizing cutting-edge optics and Internet of Things (IoT) technologies. This paper primarily functions as a user guide, providing precise instructions on how to efficiently utilize the program. The content encompasses subjects such as the process of installation, the necessary hardware and software prerequisites, and the functionality of the system.
 ## GitHub repository
 <https://github.com/aeccitm/smartgrow_data_control.git>
 
@@ -141,7 +141,7 @@ To confirm the successful deployment, the user can open a web browser and enter 
 
 ![](images/Figure-6.png)
 
-**Figure 6.** Homepage of SmartGrow DataControl peloyed in a web browser.
+**Figure 6.** Homepage of SmartGrow peloyed in a web browser.
 
 .
 
@@ -157,9 +157,9 @@ Alternatively, the software can be executed on both Windows and Ubuntu by runnin
 
 Software functionalities
 
-The integration of SmartGrow DataControl components culminates in a cohesive system distinguished by its adaptability and expansiveness. This system orchestrates data acquisition, communicates with microcontrollers, interfaces with cloud-based services, and governs actuators within the growth chamber, all seamlessly orchestrated through its backend component. By incorporating standardized communication protocols like MQTT and HTTP, SmartGrow DataControl ensures broad compatibility with diverse microcontrollers. These characteristic underscores the system's versatility, which can be tailored to accommodate an array of crop varieties. The open-source nature of this software offers several key advantages. Firstly, it fosters collaboration among developers and users globally, leading to continuous innovation and improvement. Secondly, its transparency allows users to verify its security and reliability, building trust and confidence. Additionally, its flexibility enables customization to meet specific needs and seamless integration with other tools and systems.
+The integration of SmartGrow components culminates in a cohesive system distinguished by its adaptability and expansiveness. This system orchestrates data acquisition, communicates with microcontrollers, interfaces with cloud-based services, and governs actuators within the growth chamber, all seamlessly orchestrated through its backend component. By incorporating standardized communication protocols like MQTT and HTTP, SmartGrow ensures broad compatibility with diverse microcontrollers. These characteristic underscores the system's versatility, which can be tailored to accommodate an array of crop varieties. The open-source nature of this software offers several key advantages. Firstly, it fosters collaboration among developers and users globally, leading to continuous innovation and improvement. Secondly, its transparency allows users to verify its security and reliability, building trust and confidence. Additionally, its flexibility enables customization to meet specific needs and seamless integration with other tools and systems.
 
-Potential applications of Smartgrow DataControl include:
+Potential applications of Smartgrow include:
 
 1. It helps environmental control and real-time data collection for dynamic production adjustments in indoor farming and vertical farms. Furthermore, it enables meticulous regulation of environmental factors such as temperature, humidity, and light intensity, guaranteeing ideal conditions for growth and improving agricultural productivity.
 1. It provides significant could be used to evaluate the response of different genotypes to diverse environmental situations, offering crucial data to aid in the development of adaptive crop varieties. Through the surveillance and examination of the performance of different genetic strains under carefully regulated environmental conditions, scientists can detect characteristics that provide durability and enhance the ability for maximum production.
@@ -178,7 +178,7 @@ Technology Stack
 
 Software operation
 
-To observe current environmental factors, users need to visit the homepage of Smartgrow DataControl. Users can browse between the Hidro and Weather tabs using the navigation menu. On larger displays, the menu is positioned at the top, while on smaller devices like mobile phones, it is located at the bottom. Within these areas, users will have access to up-to-date measurements of environmental parameters including temperature, humidity, carbon dioxide levels, photosynthetic photon flux (PPF), vapor pressure deficit (VPD), photosynthetic photon flux density (PPFD), water temperature, pH, electrical conductivity, and water level. Furthermore, users could see the precise date and time of the most recent data recorded as is shown in figures 8, 9, and 10.
+To observe current environmental factors, users need to visit the homepage of Smartgrow. Users can browse between the Hidro and Weather tabs using the navigation menu. On larger displays, the menu is positioned at the top, while on smaller devices like mobile phones, it is located at the bottom. Within these areas, users will have access to up-to-date measurements of environmental parameters including temperature, humidity, carbon dioxide levels, photosynthetic photon flux (PPF), vapor pressure deficit (VPD), photosynthetic photon flux density (PPFD), water temperature, pH, electrical conductivity, and water level. Furthermore, users could see the precise date and time of the most recent data recorded as is shown in figures 8, 9, and 10.
 
 ![](images/Figure-8.png)
 
@@ -197,7 +197,7 @@ On the other hand, users can check the state of the system's actuators by viewin
 
 ![](images/Figure-11.png)
 
-**Figure 11.** Smartgrow DataControl allows to monitor the state of the system's connections as is highlighted in the top of this image.
+**Figure 11.** Smartgrow allows to monitor the state of the system's connections as is highlighted in the top of this image.
 
 Users can access the "Actuators" tab from the navigation menu, which is positioned at the top for bigger screens and at the bottom for mobile screens, to interact with the system's actuators. Within this tab, users could observe the current state of the system's actuators, which are visually depicted as toggle buttons. Users could modify the operational status of the system's actuators by activating or deactivating them as is depicted in Figure 12.
 
