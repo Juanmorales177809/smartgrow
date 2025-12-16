@@ -1,13 +1,13 @@
-﻿## SmartGrow User Guide: A Comprehensive Manual
+﻿## AgroMind User Guide: A Comprehensive Manual
 
-## About Smartgrow
-## SmartGrow is a highly automated program developed specifically for collecting and evaluating ambient physiological information in indoor crop cultivation. This solution enables effortless integration between wireless devices and open-source databases, prioritizing the optimization of energy consumption by utilizing standard communication protocols such as TCP/IP, MQTT, and HTTP. The main objective of SmartGrow is to enhance the collection of crucial data for in-depth research of crop physiology, utilizing cutting-edge optics and Internet of Things (IoT) technologies. This paper primarily functions as a user guide, providing precise instructions on how to efficiently utilize the program. The content encompasses subjects such as the process of installation, the necessary hardware and software prerequisites, and the functionality of the system.
+## About AgroMind
+## AgroMind is a highly automated program developed specifically for collecting and evaluating ambient physiological information in indoor crop cultivation. This solution enables effortless integration between wireless devices and open-source databases, prioritizing the optimization of energy consumption by utilizing standard communication protocols such as TCP/IP, MQTT, and HTTP. The main objective of AgroMind is to enhance the collection of crucial data for in-depth research of crop physiology, utilizing cutting-edge optics and Internet of Things (IoT) technologies. This paper primarily functions as a user guide, providing precise instructions on how to efficiently utilize the program. The content encompasses subjects such as the process of installation, the necessary hardware and software prerequisites, and the functionality of the system.
 ## GitHub repository
-<https://github.com/aeccitm/smartgrow_data_control.git>
+<https://github.com/Juanmorales177809/AgroMin.git>
 
 Installation Process  
 
-SmartGrow was initially developed as a web-based program, providing customers with two distinct options for installation and usage. The first approach entails a local installation, in which the application functions within a network environment that restricts access to devices linked within that network. 
+AgroMind was initially developed as a web-based program, providing customers with two distinct options for installation and usage. The first approach entails a local installation, in which the application functions within a network environment that restricts access to devices linked within that network. 
 
 The second method entails deploying the software onto a web server, which requires the following explanation of the deployment process. Using this configuration, users who have the necessary network infrastructure can remotely access the program through the internet, allowing for convenient usage from almost anywhere.
 
@@ -15,11 +15,11 @@ System requirements
 
 *Operative system*
 
-Smartgrow was designed to be compatible with any operating system that can open a web browser. Nevertheless, we strongly advise utilizing an Ubuntu operating system to facilitate the installation procedure. The interoperability and user-friendly interface of Ubuntu simplify the setup procedure, guaranteeing a more seamless experience for users.
+AgroMind was designed to be compatible with any operating system that can open a web browser. Nevertheless, we strongly advise utilizing an Ubuntu operating system to facilitate the installation procedure. The interoperability and user-friendly interface of Ubuntu simplify the setup procedure, guaranteeing a more seamless experience for users.
 
 *Software requirements*
 
-To install and utilize Smartgrow, the user must fulfill the following software requirements:
+To install and utilize AgroMind, the user must fulfill the following software requirements:
 
 1. Install and set up Docker Compose on your local PC or web server. We recommend that you follow Docker Compose's official installation and configuration guide for your operating system. Because installation procedures can vary over time, it is advisable to use the most recent documentation available at the time of installation. However, Appendix A of this user guide contains instructions for installing Docker Compose version 2.24.3 (which was used for testing) on Ubuntu 22.04 LTS. Additionally, Appendix B contains instructions for installing the same version of Docker Compose on a Windows 11 operating system.
 1. Install and configure Git (Appendix C).
@@ -37,7 +37,7 @@ To install and utilize Smartgrow, the user must fulfill the following software r
 
  
 
-- ***git clone https://github.com/aeccitm/smartgrow_data_control.git***
+- ***git clone https://github.com/Juanmorales177809/AgroMind***
 
 Prior to executing the above command, it is crucial for the user to have Git installed and properly configured on their local computer or web server. If the user does not have Git installed, they can refer to the installation and configuration guide provided in Appendix C of this user guide.
 
@@ -45,7 +45,7 @@ Prior to executing the above command, it is crucial for the user to have Git ins
 
  
 
-- ***cd smartgrow/backend***
+- ***cd AgroMind/backend***
 
 1. Generate a file called ***.env*** and access it using the nano text editor. To achieve this, the user can use the following commands: 
 
@@ -56,15 +56,15 @@ Prior to executing the above command, it is crucial for the user to have Git ins
 
 ***# Mongo***
 
-***MONGO\_DB = 'smartgrow'***
+***MONGO\_DB = 'AgroMind'***
 
 ***MONGO\_HOST = my-database***
 
 ***MONGO\_PORT = 27017***
 
-***MONGO\_INITDB\_ROOT\_USERNAME = 'smartgrow'***
+***MONGO\_INITDB\_ROOT\_USERNAME = 'AgroMind'***
 
-***MONGO\_INITDB\_ROOT\_PASSWORD = 'smartgrow1234'***
+***MONGO\_INITDB\_ROOT\_PASSWORD = 'AgroMind1234'***
 
 ***MONGO\_CONNECTION = 'mongodb'***
 
@@ -141,11 +141,11 @@ To confirm the successful deployment, the user can open a web browser and enter 
 
 ![](images/Figure-6.png)
 
-**Figure 6.** Homepage of SmartGrow peloyed in a web browser.
+**Figure 6.** Homepage of AgroMind peloyed in a web browser.
 
 .
 
-To execute the application on a Windows operating system, the user must initially launch Docker Desktop. Next, navigate to the left menu and choose the "Containers" option. Find the container named "appsmartgrow" and choose the "Start" option or click the play button located under the "Actions" section. This will start the application.
+To execute the application on a Windows operating system, the user must initially launch Docker Desktop. Next, navigate to the left menu and choose the "Containers" option. Find the container named "appAgroMind" and choose the "Start" option or click the play button located under the "Actions" section. This will start the application.
 
 ![](images/Figure-7.png)
 
@@ -157,9 +157,9 @@ Alternatively, the software can be executed on both Windows and Ubuntu by runnin
 
 Software functionalities
 
-The integration of SmartGrow components culminates in a cohesive system distinguished by its adaptability and expansiveness. This system orchestrates data acquisition, communicates with microcontrollers, interfaces with cloud-based services, and governs actuators within the growth chamber, all seamlessly orchestrated through its backend component. By incorporating standardized communication protocols like MQTT and HTTP, SmartGrow ensures broad compatibility with diverse microcontrollers. These characteristic underscores the system's versatility, which can be tailored to accommodate an array of crop varieties. The open-source nature of this software offers several key advantages. Firstly, it fosters collaboration among developers and users globally, leading to continuous innovation and improvement. Secondly, its transparency allows users to verify its security and reliability, building trust and confidence. Additionally, its flexibility enables customization to meet specific needs and seamless integration with other tools and systems.
+The integration of AgroMind components culminates in a cohesive system distinguished by its adaptability and expansiveness. This system orchestrates data acquisition, communicates with microcontrollers, interfaces with cloud-based services, and governs actuators within the growth chamber, all seamlessly orchestrated through its backend component. By incorporating standardized communication protocols like MQTT and HTTP, AgroMind ensures broad compatibility with diverse microcontrollers. These characteristic underscores the system's versatility, which can be tailored to accommodate an array of crop varieties. The open-source nature of this software offers several key advantages. Firstly, it fosters collaboration among developers and users globally, leading to continuous innovation and improvement. Secondly, its transparency allows users to verify its security and reliability, building trust and confidence. Additionally, its flexibility enables customization to meet specific needs and seamless integration with other tools and systems.
 
-Potential applications of Smartgrow include:
+Potential applications of AgroMind include:
 
 1. It helps environmental control and real-time data collection for dynamic production adjustments in indoor farming and vertical farms. Furthermore, it enables meticulous regulation of environmental factors such as temperature, humidity, and light intensity, guaranteeing ideal conditions for growth and improving agricultural productivity.
 1. It provides significant could be used to evaluate the response of different genotypes to diverse environmental situations, offering crucial data to aid in the development of adaptive crop varieties. Through the surveillance and examination of the performance of different genetic strains under carefully regulated environmental conditions, scientists can detect characteristics that provide durability and enhance the ability for maximum production.
@@ -178,7 +178,7 @@ Technology Stack
 
 Software operation
 
-To observe current environmental factors, users need to visit the homepage of Smartgrow. Users can browse between the Hidro and Weather tabs using the navigation menu. On larger displays, the menu is positioned at the top, while on smaller devices like mobile phones, it is located at the bottom. Within these areas, users will have access to up-to-date measurements of environmental parameters including temperature, humidity, carbon dioxide levels, photosynthetic photon flux (PPF), vapor pressure deficit (VPD), photosynthetic photon flux density (PPFD), water temperature, pH, electrical conductivity, and water level. Furthermore, users could see the precise date and time of the most recent data recorded as is shown in figures 8, 9, and 10.
+To observe current environmental factors, users need to visit the homepage of AgroMind. Users can browse between the Hidro and Weather tabs using the navigation menu. On larger displays, the menu is positioned at the top, while on smaller devices like mobile phones, it is located at the bottom. Within these areas, users will have access to up-to-date measurements of environmental parameters including temperature, humidity, carbon dioxide levels, photosynthetic photon flux (PPF), vapor pressure deficit (VPD), photosynthetic photon flux density (PPFD), water temperature, pH, electrical conductivity, and water level. Furthermore, users could see the precise date and time of the most recent data recorded as is shown in figures 8, 9, and 10.
 
 ![](images/Figure-8.png)
 
@@ -197,7 +197,7 @@ On the other hand, users can check the state of the system's actuators by viewin
 
 ![](images/Figure-11.png)
 
-**Figure 11.** Smartgrow allows to monitor the state of the system's connections as is highlighted in the top of this image.
+**Figure 11.** AgroMind allows to monitor the state of the system's connections as is highlighted in the top of this image.
 
 Users can access the "Actuators" tab from the navigation menu, which is positioned at the top for bigger screens and at the bottom for mobile screens, to interact with the system's actuators. Within this tab, users could observe the current state of the system's actuators, which are visually depicted as toggle buttons. Users could modify the operational status of the system's actuators by activating or deactivating them as is depicted in Figure 12.
 
